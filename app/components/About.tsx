@@ -30,7 +30,7 @@ function About() {
     ];
 
     return (
-        <div className='lg:px-50 px-20 py-15 bg-white/60 lg:py-30 flex flex-col gap-10 items-center justify-center'>
+        <div className='lg:px-50 px-5 sm:px-10 md:px-20  py-15 bg-white/60 lg:py-30 flex flex-col gap-10 items-center justify-center'>
             <h1 className='text-4xl font-medium text-center mb-4'>
                 ABOUT US
             </h1>
@@ -38,9 +38,9 @@ function About() {
                 Maecenas vel turpis quis lorem aliquam tempus quis non mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
             </p>
 
-            <div className='flex w-full items-center justify-center gap-10'>
+            <div className='flex w-full md:flex-row flex-col max-md:px-15 max-sm:px-0 items-center justify-center gap-10'>
                 <Image width={576} height={350} src='/about1.jpg' alt="" className='w-4xl h-[350px]' />
-                <div className='flex flex-col gap-5'>
+                <div className='flex flex-col gap-5 justify-center items-center'>
                     <h1 className='text-3xl font-medium text-green-600'>
                         Welcome to Our Site
                     </h1>

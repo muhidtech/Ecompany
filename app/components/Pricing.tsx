@@ -83,8 +83,8 @@ const PricingCard = ({ plan }: Props) => {
 
 const Pricing = () => {
   return (
-    <div className="flex flex-col items-center w-full justify-center min-h-screen bg-gray-100 p-10">
-      <h1 className="text-4xl font-bold mb-5">Our Pricing Plans</h1>
+    <div className="flex flex-col items-center w-full justify-center min-h-screen bg-gray-100 md:p-10 py-10 px-5">
+      <h1 className="md:text-4xl text-2xl font-bold mb-5">Our Pricing Plans</h1>
       <p className='text-center max-w-lg mb-12'>
         Choose the plan that fits your needs. All plans include a 30-day free trial.
       </p>

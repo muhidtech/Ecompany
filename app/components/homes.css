@@ -3,7 +3,7 @@
 
 @layer components {
     .link {
-        @apply cursor-pointer hover:text-green-600
+        @apply cursor-pointer hover:text-green-600 text-sm md:text-lg
     }
 
     .active {
@@ -27,3 +27,5 @@
       animation: fade-slide 0.5s ease forwards;
     }
   }
+
+

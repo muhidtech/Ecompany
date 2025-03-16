@@ -6,10 +6,10 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 const Contact = () => {
   return (
     <div className="bg-gray-100 flex flex-col justify-center items-center w-full py-12">
-      <h1 className='text-4xl font-semibold text-center mb-3'>
+      <h1 className='md:text-4xl text-3xl font-semibold text-center mb-3'>
         CONTACT US
       </h1>
-      <p className='text-center mb-8 w-2xl'>
+      <p className='text-center mb-8 md:w-2xl px-3'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper pharetra ligula nec hendrerit. Ut eu libero nec magna placerat fringilla.
       </p>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">

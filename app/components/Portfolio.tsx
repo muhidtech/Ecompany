@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { FiEye, FiExternalLink } from "react-icons/fi";
-import './home.css';
+import './homes.css';
 
 
 const portfolioItems = [
@@ -26,7 +26,7 @@ function Portfolio() {
   return (
     <div className="w-full">
       {/* Navbar */}
-      <div className="flex justify-center md:gap-4 py-4">
+      <div className="flex justify-center md:gap-4 py-4 md:flex-row flex-col">
         {categories.map((category) => (
           <button
             key={category}

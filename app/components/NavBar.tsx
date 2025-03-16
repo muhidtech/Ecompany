@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import Link from 'next/link';
-import './home.css';
+import './homes.css';
 
 
 function NavBar() {
@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <div className={`w-full fixed flex justify-between items-center p-5 z-50 transition-colors duration-300 ${isScrolled ? 'bg-black/60' : 'bg-transparent'}`}>
       {/* Logo */}
-      <h1 className='text-4xl text-green-500 font-medium cursor-pointer transition-transform duration-300 hover:scale-110'>
+      <h1 className='md:text-4xl text-2xl text-green-500 font-medium cursor-pointer transition-transform duration-300 hover:scale-110'>
         <Link href='/'>Ecompany</Link>
       </h1>
 
@@ -54,14 +54,14 @@ function NavBar() {
 
         {/* Dropdown Menu */}
         <div
-          className="relative flex items-center cursor-pointer"
+          className="relative flex items-center cursor-pointer text-sm md:text-lg"
           onMouseEnter={() => setDropdownOpen(true)}
           onMouseLeave={() => setDropdownOpen(false)}
           onClick={() => setDropdownOpen(!dropdownOpen)}
         >
           DROPDOWN <FiChevronDown className="ml-1" />
           {dropdownOpen && (
-            <div className='absolute top-full mt-2 w-40 bg-white py-3 shadow-lg flex flex-col text-black text-sm'>
+            <div className='absolute top-full mt-2 w-40 bg-white py-3 shadow-lg flex flex-col text-black md:text-sm text-xs'>
               {['DROPDOWN 1', 'DROPDOWN 2', 'DROPDOWN 3', 'DROPDOWN 4', 'DROPDOWN 5'].map((item) => (
                 <Link key={item} href="#" className='px-4 py-2 hover:bg-gray-200'>
                   {item}

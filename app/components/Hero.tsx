@@ -62,7 +62,7 @@ function Hero() {
             {item.subheader}
           </p>
 
-          <button className="mt-8 px-12 py-4 bg-green-500 text-white text-2xl rounded-3xl cursor-pointer animate-fadeIn">
+          <button className="mt-8 md:px-12 px-8 md:py-4 py-2 bg-green-500 text-white md:text-2xl text-lg md:rounded-3xl rounded-2xl cursor-pointer animate-fadeIn">
             Get Started
           </button>
         </div>
@@ -71,7 +71,7 @@ function Hero() {
       {/* Left Arrow */}
       <button
         onClick={prevSlide}
-        className="absolute cursor-pointer left-4 top-1/2 transform -translate-y-1/2 text-white text-4xl z-10"
+        className="absolute cursor-pointer left-0 md:left-4 top-1/2 transform -translate-y-1/2 text-white text-4xl z-10"
       >
         <FiChevronLeft />
       </button>
@@ -79,7 +79,7 @@ function Hero() {
       {/* Right Arrow */}
       <button
         onClick={nextSlide}
-        className="absolute cursor-pointer right-4 top-1/2 transform -translate-y-1/2 text-white text-4xl z-10"
+        className="absolute cursor-pointer right-0 md:right-4 top-1/2 transform -translate-y-1/2 text-white text-4xl z-10"
       >
         <FiChevronRight />
       </button>
