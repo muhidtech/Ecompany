@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+
+@layer components {
+    .link {
+        @apply cursor-pointer hover:text-green-600
+    }
+
+    .active {
+        @apply text-green-600
+    }
+}
+
+@layer utilities {
+    @keyframes fade-slide {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    .animate-fade-slide {
+      animation: fade-slide 0.5s ease forwards;
+    }
+  }
