@@ -5,6 +5,15 @@ import React from 'react';
 import { FaCheck, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+type Props = {
+  plan: {
+    name: string;
+    price: string;
+    features: string[];
+    available: boolean[];
+  };
+};
+
 const plans = [
   {
     name: 'Silver',
@@ -47,7 +56,7 @@ const plans = [
   }
 ];
 
-const PricingCard = ({ plan }) => {
+const PricingCard = ({ plan }: Props) => {
   return (
     <motion.div 
       initial={{ opacity: 0, y: 50 }} 
