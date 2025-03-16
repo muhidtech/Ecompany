@@ -1,3 +1,5 @@
+![My Logo](./public/ecompany.png)
+
 # Ecompany
 
 A modern company website built with Next.js, React, and Tailwind CSS. This project is a multi-page application featuring a sliding Hero section, detailed About, Services, Portfolio, Pricing, and Contact pages. It is designed to showcase the company's digital offerings including Mobile App Development, Web Development, Software Development, UI/UX Design, and more.
