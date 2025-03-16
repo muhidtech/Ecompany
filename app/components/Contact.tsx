@@ -64,7 +64,6 @@ const Contact = () => {
               <textarea
                 placeholder="Message"
                 className="p-3 border border-gray-300 rounded-lg w-full mb-4 focus:outline-none focus:ring-2 focus:ring-green-500"
-                rows="5"
               ></textarea>
               <button
                 type="submit"
