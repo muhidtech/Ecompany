@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import Link from 'next/link';
 import './home.css';
-import Head from 'next/head';
 
 
 function NavBar() {
@@ -25,11 +24,6 @@ function NavBar() {
 
   return (
     <div className={`w-full fixed flex justify-between items-center p-5 z-50 transition-colors duration-300 ${isScrolled ? 'bg-black/60' : 'bg-transparent'}`}>
-      <Head>
-        <title>Ecompany</title>
-        <meta name="description" content="Ecompany - Your one stop solution for all your business needs" />
-        <link rel="icon" href="/ecompany.png" />
-      </Head>
       {/* Logo */}
       <h1 className='text-4xl text-green-500 font-medium cursor-pointer transition-transform duration-300 hover:scale-110'>
         <Link href='/'>Ecompany</Link>
