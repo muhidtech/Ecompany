@@ -4,7 +4,7 @@ A modern company website built with Next.js, React, and Tailwind CSS. This proje
 
 ## Live Demo
 
-Live Demo URL
+[Live Demo URL](https://ecompanys.netlify.app)
 
 ## Features
 
