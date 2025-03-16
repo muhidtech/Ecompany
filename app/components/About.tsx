@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { FiTarget, FiEye, FiFlag } from "react-icons/fi";
 
@@ -38,7 +39,7 @@ function About() {
             </p>
 
             <div className='flex w-full items-center justify-center gap-10'>
-                <img src='/about1.jpg' alt="" className='w-4xl h-[350px]' />
+                <Image src='/about1.jpg' alt="" className='w-4xl h-[350px]' />
                 <div className='flex flex-col gap-5'>
                     <h1 className='text-3xl font-medium text-green-600'>
                         Welcome to Our Site
