@@ -6,7 +6,6 @@ import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import Link from 'next/link';
 import './home.css';
 
-type NavBarProps = {};
 
 function NavBar() {
   const pathname = usePathname();
