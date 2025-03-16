@@ -39,7 +39,7 @@ function About() {
             </p>
 
             <div className='flex w-full items-center justify-center gap-10'>
-                <Image src='/about1.jpg' alt="" className='w-4xl h-[350px]' />
+                <Image width={576} height={350} src='/about1.jpg' alt="" className='w-4xl h-[350px]' />
                 <div className='flex flex-col gap-5'>
                     <h1 className='text-3xl font-medium text-green-600'>
                         Welcome to Our Site
